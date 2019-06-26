@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: application-credit-api
+  cloud:
+    nacos:
+      config:
+        # 配置中心配置文件格式
+        file-extension: yml
+        # 配置中心服务地址
+        server-addr: 10.0.8.250:8848
+        # 配置中心namespace
+        namespace: 181e91ab-620f-42ad-aa92-51b97388f79a
+      discovery:
+        # 注册中心服务地址
+        server-addr: 10.0.8.250:8848
+        # 注册中心namespace
+        namespace: 181e91ab-620f-42ad-aa92-51b97388f79a
