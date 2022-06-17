@@ -25,7 +25,7 @@
         <seata.version>0.6.1</seata.version>
         <nacos.version>1.0.1</nacos.version>
         <txlcn-tc.version>5.0.2.RELEASE</txlcn-tc.version>
-        <fastjson.version>1.2.58</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
     </properties>
 
     <dependencies>
